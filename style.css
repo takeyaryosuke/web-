@@ -106,12 +106,17 @@ input, select {
 /* END Reset CSS */
 
 body {
+    color: #53514C;
     font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
 }
 
 header {
     position: relative;
     height: 60px;
+}
+
+.logo {
+    display: inline-block
 }
 
 .logo img {
@@ -141,22 +146,70 @@ main {
     width: 100%;
 }
 
+main h2 {
+    height: 40px;
+    padding-left: 15px;
+    background-color: #b99565;
+    color: #fff;
+    font-weight: normal;
+    line-height: 40px;
+}
+
+main .container {
+    padding: 10px;
+}
+
+#gourmet article figure {
+    margin-bottom: 10px;
+}
+
 #gourmet article figure img {
     width: 100%;
 }
 
+#gourmet .area li {
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color:  #b99565;
+    color: #fff;
+}
+
 footer {
     width: 100%;
+    text-align: center;
 }
 
 footer ul {
+    padding: 30px 0;
     background-color: #54514C;
 }
 
+footer ul li {
+    width: 280px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+footer ul li + li {
+    margin-top: 5px;
+}
+
 footer ul li a {
+    display: block;
     color: #fff;
+    text-decoration: none;
 }
 
 footer .logo {
     width: 160px;
+    margin: 15px 0 10px;
 }
+
+ footer p small {
+    height: 30px;
+    font-size: 10px;
+    line-height: 30px;
+ }
